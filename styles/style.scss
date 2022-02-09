@@ -1,0 +1,177 @@
+// font
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// font
+
+// global
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+:root {
+  --blue: #1890ff;
+  --white: white;
+  --border-black: #d9d9d9;
+  --black: black;
+}
+
+.red {
+  border: red solid 1px;
+}
+// global
+
+// navigation
+#navigation {
+  .menu {
+    ul {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: var(--black);
+      }
+      li {
+        font-size: 0.813rem !important;
+      }
+      .log,
+      .sign {
+        font-size: 0.813rem !important;
+      }
+
+      .log {
+        background-color: var(--white);
+        border: 1px solid var(--border-black);
+      }
+      .sign {
+        background-color: var(--blue);
+        border: 1px solid var(--blue);
+
+        span {
+          color: var(--white);
+        }
+      }
+    }
+  }
+  .logo {
+    margin: 0px;
+    font-size: 1.125rem;
+  }
+}
+// navigation
+
+// hero section
+#hero {
+  h2 {
+    line-height: 2.625;
+  }
+  .hero-image {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+// hero section
+
+// skill rectangle section
+#skill-rect {
+  h5 {
+    color: var(--blue);
+
+    svg {
+      width: 25px;
+    }
+  }
+}
+// skill rectangle section
+
+// learning path
+#learn {
+  .text-head {
+    font-size: 1.875rem;
+  }
+  .frontend {
+    h6 {
+      line-height: 1.75;
+    }
+    color: var(--white);
+    background: linear-gradient(
+        97.66deg,
+        #2f80ed 0.94%,
+        rgba(123, 174, 244, 0.635417) 73.96%,
+        rgba(150, 191, 246, 0.504346) 83.82%,
+        rgba(255, 255, 255, 0) 121.8%
+      ),
+      #56ccf2;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    p {
+      font-size: 0.875rem;
+    }
+  }
+  .backend {
+    h6 {
+      line-height: 1.75;
+    }
+    color: var(--white);
+    background: linear-gradient(
+        296.48deg,
+        #87e8de -14.41%,
+        rgba(181, 241, 235, 0.613161) 25.24%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      #13c2c2;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
+// learning path
+// leaning path details
+#learn-details {
+  #card {
+    color: var(--white);
+    background: linear-gradient(
+        97.66deg,
+        #2f80ed 0.94%,
+        rgba(123, 174, 244, 0.635417) 73.96%,
+        rgba(150, 191, 246, 0.504346) 83.82%,
+        rgba(255, 255, 255, 0) 121.8%
+      ),
+      #56ccf2;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+}
+// leaning path details
+
+// What will you be able to do?
+#skills-gain {
+  h4 {
+    line-height: 2rem;
+  }
+
+  .dev {
+    width: 50%;
+  }
+  .fitting {
+    width: 80%;
+  }
+
+  .moon {
+    width: 55%;
+  }
+}
+// What will you be able to do?
+
+// What will you learn and build?
+#what-we-learn {
+  .content {
+    background: rgba(24, 144, 255, 0.13);
+  }
+}
+// What will you learn and build?
