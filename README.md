@@ -1,4 +1,3 @@
-# Day-3
-
-On Day-3 of #zeroToOneBootcamp I learned CSSflex box property 
+# Day-7
+On Day-7 of #zeroToOneBootcamp I made this project what ever i learned so far 
 
